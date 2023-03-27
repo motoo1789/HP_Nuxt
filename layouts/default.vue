@@ -1,5 +1,6 @@
 <template>
   <v-app dark>
+    
     <HeaderComponent />
     <LeftNavigation />
     <v-main>
@@ -40,7 +41,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Motoo Lab'
     }
   }
 }

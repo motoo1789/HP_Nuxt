@@ -1,7 +1,7 @@
 <template>
-  <div>
+
     <v-navigation-drawer
-      v-model="drawer"
+      mobile-breakpoint="960"
     >
       <v-list>
         <v-list-item v-for="sidelist in sidelists" 
@@ -13,7 +13,8 @@
         </v-list-item> 
       </v-list>
     </v-navigation-drawer>
-  </div>
+    
+
 </template>
 
 <script>

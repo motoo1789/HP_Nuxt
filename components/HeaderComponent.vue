@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-app-bar>
+        <v-app-bar app :clipped-left="clipped" >
             <v-toolbar-title>{{ title }}</v-toolbar-title>
             <v-spacer />
         </v-app-bar>     
