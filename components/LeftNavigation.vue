@@ -13,7 +13,7 @@
           @click="changeComponent(sidelist.titleENG)"
         >
           <v-list-item-icon>
-            <v-icon v-text="sidelist.icon"></v-icon>
+            <v-icon > {{ sidelist.icon }}</v-icon>
           </v-list-item-icon>
           {{ sidelist.titleJP }}
         </v-list-item> 

@@ -1,6 +1,7 @@
 <template>
     <div>
         <v-app-bar :clipped-left="true" app>
+            <v-spacer />
             <v-toolbar-title>{{ title }}</v-toolbar-title>
             <v-spacer />
         </v-app-bar>     
@@ -22,5 +23,7 @@
   </script>
   
   <style>
-  
+  .border-b {
+    border: 1px red;
+  }
   </style>
