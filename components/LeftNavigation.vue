@@ -9,9 +9,12 @@
       <v-list>
         <v-list-item v-for="sidelist in sidelists" 
           :key="sidelist.titleJP" 
-          prepend-icon="subtitle.icon"
+          prepend-icon=sidelist.icon
           @click="changeComponent(sidelist.titleENG)"
         >
+          <v-list-item-icon>
+            <v-icon v-text="sidelist.icon"></v-icon>
+          </v-list-item-icon>
           {{ sidelist.titleJP }}
         </v-list-item> 
       </v-list>
@@ -27,6 +30,9 @@ export default {
     sidelists: [
       {titleJP: "ホーム", titleENG: "Home", path: "/",  icon:"mdi-home-outline"},
       {titleJP: "プロフィール", titleENG: "Profile", path: "/profile", icon:"mdi-account-outline"},
+      {titleJP: "ホビー", titleENG: "Hobby", path: "/hobby", icon:"mdi-gamepad-variant-outline"},
+      {titleJP: "プロジェクト", titleENG: "Project", path: "/project", icon:"mdi-email-outline"},
+      {titleJP: "コンタクト", titleENG: "Contact", path: "/cotact", icon:"mdi-account-outline"},
     ]
   }),
 }
