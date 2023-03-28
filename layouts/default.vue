@@ -15,7 +15,7 @@
     >
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
-  </v-app>
+  </v-app> 
 </template>
 
 <script>

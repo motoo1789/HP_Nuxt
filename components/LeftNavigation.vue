@@ -2,6 +2,9 @@
 
     <v-navigation-drawer
       mobile-breakpoint="960"
+      app 
+      :clipped="true"
+
     >
       <v-list>
         <v-list-item v-for="sidelist in sidelists" 

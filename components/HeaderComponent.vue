@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-app-bar app :clipped-left="clipped" >
+        <v-app-bar :clipped-left="true" app>
             <v-toolbar-title>{{ title }}</v-toolbar-title>
             <v-spacer />
         </v-app-bar>     
@@ -13,6 +13,7 @@
       data() {
           return {
               title: "Motoo Lab",
+              clipped: true,
           }
       },
       computed: {
